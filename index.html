@@ -1,0 +1,778 @@
+<!DOCTYPE html>  <html lang="id">  
+ <head>  
+  <meta charset="utf-8"/>  
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>  
+  <meta content="Kirimart — kirim barang, makanan, belanja online, UMKM dan peluang kerja." name="description"/>  
+  <title>  
+   Kirimart — Untuk Daerah, Untuk Kita Semua  
+  </title>  
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>  
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>  
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&amp;family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>  
+  <link href="style.css" rel="stylesheet"/>  
+ </head>  
+ <body>  
+  <!-- ==================== EFEK VISUAL / CURSOR ==================== -->  
+  <div id="cursorGlow">  
+  </div>  
+  <!-- ==================== INTRO / LOADING SCREEN ==================== -->  
+  <section class="intro" id="intro">  
+   <div class="intro-orb orb-a">  
+   </div>  
+   <div class="intro-orb orb-b">  
+   </div>  
+   <div class="intro-content">  
+    <div class="intro-logo">  
+     <span class="logo-mark">  
+      ➤  
+     </span>  
+     Kiri  
+     <span>  
+      mart  
+     </span>  
+    </div>  
+    <p class="intro-tagline">  
+     Kirim • Belanja • Dukung UMKM • Cari Kerja  
+    </p>  
+    <div class="road">  
+     <div class="city city-a">  
+     </div>  
+     <div class="city city-b">  
+     </div>  
+     <div class="road-line">  
+     </div>  
+     <div class="motor-wrap">  
+      <div class="delivery-box">  
+       KIRIMART  
+      </div>  
+      <div class="rider">  
+       <i class="helmet">  
+       </i>  
+       <i class="head">  
+       </i>  
+       <i class="body">  
+       </i>  
+       <i class="arm">  
+       </i>  
+      </div>  
+      <div class="bike">  
+       <i class="wheel wheel-a">  
+       </i>  
+       <i class="wheel wheel-b">  
+       </i>  
+       <i class="frame">  
+       </i>  
+       <i class="handle">  
+       </i>  
+       <i class="seat">  
+       </i>  
+       <i class="lamp">  
+       </i>  
+      </div>  
+     </div>  
+    </div>  
+    <div class="intro-loading">  
+     <span>  
+      Menyiapkan Kirimart  
+     </span>  
+     <div class="loading-track">  
+      <i>  
+      </i>  
+     </div>  
+     <small>  
+      Menghubungkan layanan lokal...  
+     </small>  
+    </div>  
+   </div>  
+  </section>  
+  <div class="site" id="site">  
+   <!-- ==================== NAVIGASI UTAMA ==================== -->  
+   <header class="navbar">  
+    <a class="brand" href="#beranda">  
+     <div class="brand-icon">  
+      ➤  
+     </div>  
+     <div>  
+      <strong>  
+       Kiri  
+       <span>  
+        mart  
+       </span>  
+      </strong>  
+      <small>  
+       Kirim • Belanja • Dukung UMKM • Cari Kerja  
+      </small>  
+     </div>  
+    </a>  
+    <nav id="navMenu">  
+     <a class="active" href="#beranda">  
+      Beranda  
+     </a>  
+     <a href="#tentang">  
+      Tentang  
+     </a>  
+     <a href="#fitur">  
+      Fitur  
+     </a>  
+     <a href="#layanan">  
+      Layanan  
+     </a>  
+     <a href="#umkm">  
+      UMKM  
+     </a>  
+     <a href="#karir">  
+      Karir  
+     </a>  
+     <a href="#kontak">  
+      Kontak  
+     </a>  
+    </nav>  
+    <div class="nav-actions">  
+     <div class="search">  
+      <span>  
+       ⌕  
+      </span>  
+      <input placeholder="Cari layanan, produk, atau daerah..."/>  
+     </div>  
+     <button class="btn btn-primary login-btn" onclick="openModal('loginModal')">  
+      ♙ Masuk / Daftar  
+     </button>  
+     <button class="hamburger" id="hamburger">  
+      ☰  
+     </button>  
+    </div>  
+   </header>  
+   <main>  
+    <!-- ==================== FITUR 01: BERANDA / HERO ==================== -->  
+    <section class="hero" id="beranda">  
+     <div class="hero-bg-shape">  
+     </div>  
+     <div class="hero-grid">  
+     </div>  
+     <div class="sparkle s1">  
+      ✦  
+     </div>  
+     <div class="sparkle s2">  
+      ✦  
+     </div>  
+     <div class="hero-copy reveal">  
+      <p class="eyebrow">  
+       ✦ SOLUSI LENGKAP UNTUK KEBUTUHAN SEHARI-HARI  
+      </p>  
+      <h1>  
+       Kirim Barang,  
+       <br/>  
+       Makanan,  
+       <br/>  
+       <span>  
+        Belanja Online  
+       </span>  
+       <br/>  
+       &amp; Banyak Lagi  
+      </h1>  
+      <p class="hero-text">  
+       Kirimart hadir untuk mempermudah hidup Anda. Kirim barang, pesan makanan, belanja produk lokal, dukung UMKM, dan temukan peluang menjadi kurir dalam satu aplikasi.  
+      </p>  
+      <div class="hero-buttons">  
+       <a class="btn btn-primary btn-large" href="#fitur">  
+        ↓   Pelajari Fitur  
+       </a>  
+       <a class="btn btn-outline btn-large" href="#tentang">  
+        Tentang Kirimart →  
+       </a>  
+      </div>  
+      <div class="hero-trust">  
+       <span>  
+        ✓ Untuk daerah lokal  
+       </span>  
+       <span>  
+        ✓ Mendukung UMKM  
+       </span>  
+       <span>  
+        ✓ Peluang kerja  
+       </span>  
+      </div>  
+     </div>  
+     <div class="hero-visual reveal delay-1">  
+      <div class="photo-card courier-card float">  
+       <div class="photo courier-photo">  
+        <img alt="Foto kurir Kirimart" onerror="this.onerror=null;this.src='assets/kurir.jpg'" src="assets/kurir.jpg"/>  
+       </div>  
+       <div class="photo-label">  
+        <b>  
+         Kurir Kirimart  
+        </b>  
+        <small>  
+         Antar pesanan dengan aman  
+        </small>  
+       </div>  
+      </div>  
+      <div class="photo-card seller-card float-delay">  
+       <div class="photo seller-photo">  
+        <img alt="Foto toko UMKM Kirimart" onerror="this.onerror=null;this.src='assets/umkm.jpg'" src="assets/umkm.jpg"/>  
+       </div>  
+       <div class="photo-label">  
+        <b>  
+         UMKM Lokal  
+        </b>  
+        <small>  
+         Produk daerah naik kelas  
+        </small>  
+       </div>  
+      </div>  
+      <div class="phone phone-main">  
+       <div class="phone-notch">  
+       </div>  
+       <div class="phone-screen">  
+        <div class="mini-brand">  
+         ➤  
+         <b>  
+          Kiri  
+          <span>  
+           mart  
+          </span>  
+         </b>  
+        </div>  
+        <p class="mini-greeting">  
+         Halo, Selamat Datang 👋  
+        </p>  
+        <div class="mini-search">  
+         ⌕   Cari kebutuhan hari ini...  
+        </div>  
+        <div class="app-icons">  
+         <div>  
+          <b>  
+           📦  
+          </b>  
+          <span>  
+           Kirim  
+           <br/>  
+           Barang  
+          </span>  
+         </div>  
+         <div>  
+          <b>  
+           🍜  
+          </b>  
+          <span>  
+           Kirim  
+           <br/>  
+           Makanan  
+          </span>  
+         </div>  
+         <div>  
+          <b>  
+           🛒  
+
+<!-- FOTO UTAMA BERANDA KIRIMART -->
+<div class="hero-visual reveal delay-1">
+  <div class="hero-banner-photo">
+    <img
+      src="assets/Menu.jpg"
+      alt="Layanan Kirimart, kurir, belanja online dan UMKM lokal"
+      loading="eager"
+    >
+
+    <div class="hero-photo-overlay">
+      <span class="hero-photo-badge">
+        🛵 Layanan Kirimart
+      </span>
+
+      <h2>
+        Semua Kebutuhan<br>
+        dalam Satu Aplikasi
+      </h2>
+
+      <p>
+        Kirim barang, pesan makanan, dan dukung UMKM lokal.
+      </p>
+    </div>
+  </div>
+</div>
+
+    </section>  
+    <!-- ==================== FITUR 02: STATISTIK ==================== -->  
+    <section class="stats">  
+     <div>  
+      <b data-count="120">  
+       0  
+      </b>  
+      <span>  
+       + Mitra Lokal  
+      </span>  
+     </div>  
+     <div>  
+      <b data-count="850">  
+       0  
+      </b>  
+      <span>  
+       + Pesanan  
+      </span>  
+     </div>  
+     <div>  
+      <b data-count="25">  
+       0  
+      </b>  
+      <span>  
+       + UMKM  
+      </span>  
+     </div>  
+     <div>  
+      <b data-count="7">  
+       0  
+      </b>  
+      <span>  
+       Hari Dukungan  
+      </span>  
+     </div>  
+    </section>  
+    <!-- ==================== FITUR 03: LAYANAN ==================== -->  
+    <section class="services section" id="layanan">  
+     <div class="section-intro reveal">  
+      <p class="eyebrow">  
+       SEMUA DALAM SATU APLIKASI  
+      </p>  
+      <h2>  
+       Layanan Utama  
+       <span>  
+        Kirimart  
+       </span>  
+      </h2>  
+      <p>  
+       Satu platform untuk kebutuhan masyarakat dan pelaku usaha di setiap daerah.  
+      </p>  
+     </div>  
+     <div class="service-grid">  
+      <article class="service-card orange reveal">  
+       <div class="service-icon">  
+        📦  
+       </div>  
+       <h3>  
+        Kirim Barang  
+       </h3>  
+       <p>  
+        Paket, dokumen, dan barang lokal dengan proses sederhana.  
+       </p>  
+       <a href="#fitur">  
+        Pelajari →  
+       </a>  
+      </article>  
+      <article class="service-card red reveal">  
+       <div class="service-icon">  
+        🍜  
+       </div>  
+       <h3>  
+        Kirim Makanan  
+       </h3>  
+       <p>  
+        Pesan makanan dari warung, restoran, dan UMKM kuliner.  
+       </p>  
+       <a href="#fitur">  
+        Pelajari →  
+       </a>  
+      </article>  
+      <article class="service-card green reveal">  
+       <div class="service-icon">  
+        🛒  
+       </div>  
+       <h3>  
+        Belanja Online  
+       </h3>  
+       <p>  
+        Kebutuhan harian, fashion, elektronik, dan produk lokal.  
+       </p>  
+       <a href="#fitur">  
+        Pelajari →  
+       </a>  
+      </article>  
+      <article class="service-card purple reveal">  
+       <div class="service-icon">  
+        🏪  
+       </div>  
+       <h3>  
+        Dukung UMKM  
+       </h3>  
+       <p>  
+        Bantu usaha lokal ditemukan dan mendapatkan pelanggan baru.  
+       </p>  
+       <a href="#umkm">  
+        Pelajari →  
+       </a>  
+      </article>  
+      <article class="service-card blue reveal">  
+       <div class="service-icon">  
+        🧑‍✈️  
+       </div>  
+       <h3>  
+        Cari Kerja / Kurir  
+       </h3>  
+       <p>  
+        Peluang penghasilan fleksibel untuk masyarakat daerah.  
+       </p>  
+       <a href="#karir">  
+        Pelajari →  
+       </a>  
+      </article>  
+     </div>  
+    </section>  
+    <!-- ==================== FITUR 04: KEUNGGULAN ==================== -->  
+    <section class="why section" id="fitur">  
+     <div class="why-copy reveal">  
+      <p class="eyebrow">  
+       KENAPA KIRIMART?  
+      </p>  
+      <h2>  
+       Dibuat untuk  
+       <span>  
+        masyarakat lokal.  
+       </span>  
+      </h2>  
+      <p>  
+       Kirimart menghubungkan kebutuhan sehari-hari, usaha lokal, dan peluang kerja dengan pengalaman digital yang ringan dan mudah digunakan.  
+      </p>  
+      <div class="mini-stat">  
+       <b>  
+        98%  
+       </b>  
+       <span>  
+        Fokus pengalaman pengguna sederhana  
+       </span>  
+      </div>  
+     </div>  
+     <div class="feature-list">  
+      <div class="feature reveal">  
+       <b>  
+        ⚡  
+       </b>  
+       <div>  
+        <h3>  
+         Mudah &amp; Cepat  
+        </h3>  
+        <p>  
+         Pesan dan kirim dengan alur sederhana.  
+        </p>  
+       </div>  
+      </div>  
+      <div class="feature reveal">  
+       <b>  
+        🛡️  
+       </b>  
+       <div>  
+        <h3>  
+         Aman &amp; Terpercaya  
+        </h3>  
+        <p>  
+         Sistem dirancang untuk pengalaman aman.  
+        </p>  
+       </div>  
+      </div>  
+      <div class="feature reveal">  
+       <b>  
+        📍  
+       </b>  
+       <div>  
+        <h3>  
+         Berbasis Lokal  
+        </h3>  
+        <p>  
+         Menyesuaikan kebutuhan daerah.  
+        </p>  
+       </div>  
+      </div>  
+      <div class="feature reveal">  
+       <b>  
+        ❤️  
+       </b>  
+       <div>  
+        <h3>  
+         Dukung UMKM  
+        </h3>  
+        <p>  
+         Membantu produk lokal menemukan pembeli.  
+        </p>  
+       </div>  
+      </div>  
+      <div class="feature reveal">  
+       <b>  
+        👥  
+       </b>  
+       <div>  
+        <h3>  
+         Peluang Kerja  
+        </h3>  
+        <p>  
+         Membuka kesempatan menjadi mitra kurir.  
+        </p>  
+       </div>  
+      </div>  
+     </div>  
+    </section>  
+    <!-- ==================== FITUR 05: UMKM ==================== -->  
+    <section class="umkm section" id="umkm">  
+     <div class="umkm-visual reveal">  
+      <div class="blob">  
+      </div>  
+      <img alt="Foto pelaku UMKM Kirimart" onerror="this.onerror=null;this.src='assets/umkm.jpg'" src="assets/umkm.jpg"/>  
+      <div class="floating-review">  
+       ⭐  
+       <b>  
+        Produk Lokal  
+       </b>  
+       <small>  
+        Disukai pelanggan  
+       </small>  
+      </div>  
+     </div>  
+     <div class="umkm-copy reveal">  
+      <p class="eyebrow">  
+       UNTUK PELAKU USAHA  
+      </p>  
+      <h2>  
+       Bersama UMKM,  
+       <br/>  
+       <span>  
+        Maju Lebih Jauh  
+       </span>  
+      </h2>  
+      <p>  
+       Kirimart ingin menjadi partner digital bagi UMKM di setiap daerah agar produk lokal lebih mudah ditemukan, dipesan, dan dikirim.  
+      </p>  
+      <div class="check-list">  
+       <span>  
+        ✓ Meningkatkan penjualan  
+       </span>  
+       <span>  
+        ✓ Memperluas pasar  
+       </span>  
+       <span>  
+        ✓ Digitalisasi bisnis  
+       </span>  
+       <span>  
+        ✓ Terhubung pelanggan lokal  
+       </span>  
+      </div>  
+      <button class="btn btn-primary" onclick="openModal('partnerModal')">  
+       Daftar Jadi Mitra UMKM →  
+      </button>  
+     </div>  
+    </section>  
+    <!-- ==================== FITUR 06: KARIR / KURIR ==================== -->  
+    <section class="career section" id="karir">  
+     <div class="career-copy reveal">  
+      <p class="eyebrow">  
+       PELUANG UNTUK SEMUA  
+      </p>  
+      <h2>  
+       Ingin menjadi  
+       <span>  
+        Kurir Kirimart?  
+       </span>  
+      </h2>  
+      <p>  
+       Bergabung sebagai mitra kurir di daerah sendiri dan bantu menggerakkan ekonomi lokal.  
+      </p>  
+      <div class="career-points">  
+       <span>  
+        ✓ Jadwal lebih fleksibel  
+       </span>  
+       <span>  
+        ✓ Kerja di daerah sendiri  
+       </span>  
+       <span>  
+        ✓ Peluang penghasilan tambahan  
+       </span>  
+      </div>  
+      <button class="btn btn-orange" onclick="openModal('courierModal')">  
+       Saya Ingin Jadi Kurir →  
+      </button>  
+     </div>  
+     <div class="career-art reveal">  
+      <img alt="Foto kurir Kirimart" onerror="this.onerror=null;this.src='assets/kurir.jpg'" src="assets/kurir.jpg"/>  
+      <div class="route-line">  
+      </div>  
+      <div class="box-big">  
+       KIRIMART  
+      </div>  
+     </div>  
+    </section>  
+    <!-- ==================== FITUR 07: TENTANG KIRIMART ==================== -->  
+    <section class="about section" id="tentang">  
+     <div class="about-card reveal">  
+      <div>  
+       <p class="eyebrow">  
+        DALAM PENGEMBANGAN  
+       </p>  
+       <h2>  
+        Kirimart masih terus  
+        <span>  
+         dibangun.  
+        </span>  
+       </h2>  
+       <p>  
+        Kami terus mengembangkan fitur agar Kirimart bermanfaat untuk masyarakat, UMKM, dan mitra kurir.  
+       </p>  
+      </div>  
+      <div class="progress-box">  
+       <div class="progress-head">  
+        <b>  
+         Proses Pembuatan Aplikasi  
+        </b>  
+        <strong>  
+         40%  
+        </strong>  
+       </div>  
+       <div class="progress">  
+        <i>  
+        </i>  
+       </div>  
+       <small>  
+        Versi terbaik Kirimart masih dalam proses.  
+       </small>  
+      </div>  
+     </div>  
+    </section>  
+    <!-- ==================== FITUR 08: CTA / KONTAK ==================== -->  
+    <section class="cta" id="kontak">  
+     <div>  
+      <p class="eyebrow">  
+       KIRIMART  
+      </p>  
+      <h2>  
+       Untuk Daerah, Untuk Kita Semua.  
+      </h2>  
+      <p>  
+       Satu aplikasi untuk menghubungkan masyarakat, UMKM, dan peluang kerja lokal.  
+      </p>  
+     </div>  
+     <a class="btn btn-white" href="#beranda">  
+      Kembali ke Atas ↑  
+     </a>  
+    </section>  
+   </main>  
+   <!-- ==================== FOOTER ==================== -->  
+   <footer>  
+    <div class="footer-brand">  
+     <div class="brand-icon">  
+      ➤  
+     </div>  
+     <div>  
+      <strong>  
+       Kiri  
+       <span>  
+        mart  
+       </span>  
+      </strong>  
+      <small>  
+       Kirim • Belanja • Dukung UMKM • Cari Kerja  
+      </small>  
+     </div>  
+    </div>  
+    <div class="footer-links">  
+     <div>  
+      <b>  
+       Jelajahi  
+      </b>  
+      <a href="#layanan">  
+       Layanan  
+      </a>  
+      <a href="#fitur">  
+       Fitur  
+      </a>  
+      <a href="#umkm">  
+       UMKM  
+      </a>  
+     </div>  
+     <div>  
+      <b>  
+       Bantuan  
+      </b>  
+      <a href="https://wa.me/62895634273729">  
+       Kontak  
+      </a>  
+      <a href="okisetiawan@gmail.com">  
+       Gmail kami  
+      </a>  
+     </div>  
+     <div>  
+      <b>
+    <div class="copyright">  
+     © 2026 Kirimart. Dalam proses pengembangan.  
+     <br/>  
+     <em>  
+      Untuk Daerah, Untuk Kita Semua.  
+     </em>  
+    </div>  
+   </footer>  
+  </div>  
+  <!-- ==================== KOMPONEN: NOTIFIKASI ==================== -->  
+  <div class="toast" id="toast">  
+  </div>  
+  <!-- ==================== MODAL 01: LOGIN / DAFTAR ==================== -->  
+  <div class="modal" id="loginModal">  
+   <div class="modal-box">  
+    <button class="modal-close" onclick="closeModal('loginModal')">  
+     ×  
+    </button>  
+    <div class="modal-icon">  
+     ➤  
+    </div>  
+    <h2>  
+     Masuk / Daftar  
+    </h2>  
+    <p>  
+     Fitur akun Kirimart sedang disiapkan.  
+    </p>  
+    <input placeholder="Nomor HP / Email"/>  
+    <button class="btn btn-primary full" onclick="showToast('Terima kasih! Fitur akun segera tersedia.');closeModal('loginModal')">  
+     Lanjutkan  
+    </button>  
+   </div>  
+  </div>  
+  <!-- ==================== MODAL 02: PENDAFTARAN UMKM ==================== -->  
+  <div class="modal" id="partnerModal">  
+   <div class="modal-box">  
+    <button class="modal-close" onclick="closeModal('partnerModal')">  
+     ×  
+    </button>  
+    <div class="modal-icon">  
+     🏪  
+    </div>  
+    <h2>  
+     Gabung UMKM  
+    </h2>  
+    <p>  
+     Daftarkan usaha Anda untuk tahap pengembangan berikutnya.  
+    </p>  
+    <input placeholder="Nama usaha"/>  
+    <input placeholder="Nomor WhatsApp"/>  
+    <button class="btn btn-primary full" onclick="showToast('Data pendaftaran berhasil dicatat.');closeModal('partnerModal')">  
+     Daftar Sekarang  
+    </button>  
+   </div>  
+  </div>  
+  <!-- ==================== MODAL 03: PENDAFTARAN KURIR ==================== -->  
+  <div class="modal" id="courierModal">  
+   <div class="modal-box">  
+    <button class="modal-close" onclick="closeModal('courierModal')">  
+     ×  
+    </button>  
+    <div class="modal-icon">  
+     🛵  
+    </div>  
+    <h2>  
+     Jadi Kurir  
+    </h2>  
+    <p>  
+     Kesempatan mitra kurir akan dibuka setelah sistem siap.  
+    </p>  
+    <input placeholder="Nama lengkap"/>  
+    <input placeholder="Nomor WhatsApp"/>  
+    <button class="btn btn-orange full" onclick="showToast('Minat menjadi kurir berhasil dicatat.');closeModal('courierModal')">  
+     Saya Berminat  
+    </button>  
+   </div>  
+  </div>  
+  <script src="script.js">  
+  </script>  
+ </body>  
+</html>  
